@@ -30,7 +30,10 @@
       "single"
     ],
     "no-duplicate-imports": "error",
-    "semi": [2, "always"]
+    "semi": [2, "always"],
+    "@typescript-eslint/no-floating-promises": "warn",
+    "@typescript-eslint/strict-boolean-expressions": "warn",
+    "@typescript-eslint/explicit-function-return-type": "warn"
   },
   "settings": {
     "import/resolver": {
